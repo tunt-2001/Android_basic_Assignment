@@ -13,21 +13,13 @@
         android:theme="@style/Theme.Assignment"
         tools:targetApi="31">
         <activity
-            android:name=".Ui.Activity.ListClassActivity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
+            android:name=".QuanLySV_Activity"
+            android:exported="false" />
         <activity
-            android:name=".Ui.Activity.StudentActivity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
+            android:name=".DanhSachLopActivity"
+            android:exported="false" />
         <activity
-            android:name=".Ui.Activity.MainActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
